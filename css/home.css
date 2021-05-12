@@ -18,14 +18,14 @@ body {
 
  .hero {
      background-image: url('/assets/images/home-bg-sun.png'), url('/assets/images/home-bg-books.png');
-     background-position-x: -77px, -70px;
-     background-position-y: -90px, 12px;
+     background-position-x: -70px, -70px;
+     background-position-y: -90px, 15px;
      background-repeat: no-repeat;
-     background-size: 120%, 200%;
+     background-size: 125%, 200%;
  }
 
 .logo-container {
-     padding-top: 200px;
+     padding-top: 150px;
 }
 
 .container {
@@ -44,7 +44,7 @@ body {
 .headline {
 font-style: normal;
 font-weight: 300;
-font-size: 1.2em;
+font-size: 1em;
 line-height: 1.1em;
 text-align: center;
 letter-spacing: 2%;
@@ -63,7 +63,7 @@ margin-bottom: 40px;
     text-align: left;
     display: block;
     margin-bottom: 18px;
-    font-size: 1.3em;
+    font-size: 1em;
     text-transform: capitalize;
     letter-spacing: 2%;
     line-height: 1.3em;
@@ -75,7 +75,7 @@ margin-bottom: 40px;
     text-align: left;
     display: block;
     margin-bottom: 14px;
-    font-size: 1.1em;
+    font-size: 0.9em;
     line-height: 1.6em;
     letter-spacing: 2%;
 
@@ -87,7 +87,7 @@ margin-bottom: 40px;
     text-align: left;
     display: block;
     margin-bottom: 40px;
-    font-size: 1.1em;
+    font-size: 0.85em;
     padding-top: 20px;
     letter-spacing: 2%;
 }
@@ -97,7 +97,7 @@ margin-bottom: 40px;
     background-color: #248450;
     box-shadow: 20px 20px 10px 10px rgba(0, 0, 0, 0.25) inset;
     border-radius: 4px;
-    padding: 0.5em 2.2em 0.5em 2.2em;
+    padding: 0.3em 2em 0.3em 2em;
     margin-bottom: 40px;
     display: inline-block;
     font-size: 1.1em;
@@ -111,7 +111,7 @@ margin-bottom: 40px;
     text-align: left;
     display: inline-block;
     margin-bottom: 40px;
-    font-size: 1.0em;
+    font-size: 0.8em;
     padding-top: 20px;
     letter-spacing: 2%;
     word-break: break-word;
@@ -120,7 +120,7 @@ label {
     display: block;
     margin-top: 7px;
     margin-bottom: 5px;
-    font-size: 1em;
+    font-size: 0.8em;
     font-weight: 300;
 }
 
@@ -138,6 +138,7 @@ input {
     color: #747474;
     opacity: 0.9;
     padding-left: 5px;
+    font-size: 0.8em;
 }
 
 .main-form {
@@ -147,9 +148,9 @@ input {
 
 #btn-cta {
     text-transform: uppercase;
-    font-size: 0.8em;
+    font-size: 0.7em;
     font-weight: 900;
-    letter-spacing: 0.15em;
+    letter-spacing: 0.2em;
     margin-top: 20px;
     padding-top: 12px;
     padding-bottom: 12px;
