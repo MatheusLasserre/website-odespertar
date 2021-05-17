@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -30,18 +30,25 @@
                     <div class="date-btn">de 31/05 a 02/06</div>
                     <p class="text-cta">Preencha o formulário abaixo e prepare-se. <span class="strong strongline">Chegou a hora de despertar.</span></p>
                     <div class="form-wrap">
-                        <form action="#" class="main-form">
+                        <form method="POST" action="https://matheusaraujo.activehosted.com/proc.php" class="main-form _form _form_1 _inline-form  _dark" id="_form_1_" >
+                            <input type="hidden" name="u" value="1" />
+                            <input type="hidden" name="f" value="1" />
+                            <input type="hidden" name="s" />
+                            <input type="hidden" name="c" value="0" />
+                            <input type="hidden" name="m" value="0" />
+                            <input type="hidden" name="act" value="sub" />
+                            <input type="hidden" name="v" value="2" />
                             <div>
-                                <label for="name" >Seu Nome</label>
-                                <input type="text" id="name" name="name" placeholder="Nome">
+                                <label for="fullname" class="_form-label" >Seu Nome</label>
+                                <input type="text" id="fullname" name="fullname" placeholder="Nome" title="Por favor, insira seu nome" required>
                                 
                             </div>
                             <div>
-                                <label for="email" >Seu E-mail</label>
-                                <input type="email" id="email" email="email" placeholder="E-mail">
+                                <label for="email" class="_form-label">Seu E-mail</label>
+                                <input type="text" id="email" name="email" placeholder="E-mail" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" title="Por favor, corrija o e-mail" required>
                             </div>
                             <div id="joke">
-                                <input type="submit" value="quero participar" id="btn-cta">
+                                <button type="submit" id="_form_1_submit" class="btn-cta _submit">quero participar</button>
                             </div>
                         </form>
                     </div>
@@ -49,17 +56,5 @@
             </div>
         </section>
     </div>
-    <script>
-        document.getElementById('joke').addEventListener("click", joke); 
-
-
-
-
-function joke () {
-
-    alert("Não clica aí, cara. Essa página é só um teste");
-    
-}
-    </script>
 </body>
 </html>
