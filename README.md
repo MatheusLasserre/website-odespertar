@@ -1,2 +1,3 @@
 # website-odespertar
-Transposição de design feito no Figma por Lucas Gabriel para código HTML, CSS e Javascript
+(BRL)UI feita por Lucas Gabriel, e tradução de Design para código feito por mim.<br>
+(ENG)UI made by Lucas Gabriel and translation of the Design to code made by me.
