@@ -210,7 +210,7 @@
     }
 }
 
-/* @media screen and (min-width: 2560px) {
+@media screen and (min-width: 2560px) {
 
     #logo {
         max-width: 50%;
@@ -219,9 +219,9 @@
         padding-top: 100px;
     }
     
-    .container {
+    /* .container {
         padding-top: 20px;
         margin-left: 40.3%;
         margin-right: 40.3%;
-    }
-}    */
+    } */
+}   
